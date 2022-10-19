@@ -1,0 +1,67 @@
+.contact__content {
+    justify-content: center;
+    text-align: center;
+}
+.contact__title {
+    font-size: var(--h3-font-size);
+    color: var(--title-color);
+    text-align: center;
+    margin-bottom: var(--mb-2);
+}
+
+.contact__icon {
+    text-align: center;
+}
+.mail__icon img {
+    width: 12vw;
+}
+.email__address {
+    display: block;
+    font-size: var(--normal-font-size);
+    margin-bottom: 4rem;
+    color: var(--title-color);
+    text-align: center;
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .button {
+      padding: 1rem 1.75rem;
+    }
+  
+    .button__icon {
+      width: 22px;
+      height: 22px;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .section {
+      padding: 2rem 0 4rem;
+    }
+  
+    .section__subtitle {
+      margin-bottom: var(--mb-2);
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .button {
+        padding: 1rem 1.5rem;
+      }
+    
+      .button__icon {
+        width: 18px;
+        height: 18px;
+      }
+  
+  }
+  

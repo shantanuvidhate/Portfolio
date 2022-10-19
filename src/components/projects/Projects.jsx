@@ -70,12 +70,12 @@ const Projects = () => {
                     <i className="services__icon"><BiotechIcon /></i>
                     <h3 className="services__title">Ui/Ux <br /> Designer</h3>
                 </div>
-                <span className="services__button">Description
+                <span onClick={() => toggleTab (2)} className="services__button">Description
                     <i className="services__button-icon"><EastIcon /></i>
                 </span>
-                <div className="services__modal">
+                <div className={toggleState === 2 ? "services__modal active-modal"  : "services__modal"}>
                     <div className="services__modal-content">
-                        <i className="services__modal-close"><CloseIcon /></i>
+                        <i onClick={() => toggleTab(0)} className="services__modal-close"><CloseIcon /></i>
                         <h3 className="services__modal-title">UI/UX Designer</h3>
                         <p className="services__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate odio nulla pariatur blanditiis non. Corporis iure deleniti earum odit quam, asperiores odio illum.</p>
 
@@ -121,12 +121,12 @@ const Projects = () => {
                     <i className="services__icon"><BiotechIcon /></i>
                     <h3 className="services__title">Visual<br /> Designer</h3>
                 </div>
-                <span className="services__button">Description
+                <span onClick={() => toggleTab (3)} className="services__button">Description
                     <i className="services__button-icon"><EastIcon /></i>
                 </span>
-                <div className="services__modal">
+                <div className={toggleState === 3 ? "services__modal active-modal"  : "services__modal"}>
                     <div className="services__modal-content">
-                        <i className="services__modal-close"><CloseIcon /></i>
+                        <i onClick={() => toggleTab(0)} className="services__modal-close"><CloseIcon /></i>
                         <h3 className="services__modal-title">Visual Designer</h3>
                         <p className="services__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate odio nulla pariatur blanditiis non. Corporis iure deleniti earum odit quam, asperiores odio illum.</p>
 
