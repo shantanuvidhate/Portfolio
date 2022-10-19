@@ -1,5 +1,6 @@
 import React from 'react';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
+import VerifiedIcon from '@mui/icons-material/Verified';
 
 const Backend = () => {
   return (
@@ -9,7 +10,9 @@ const Backend = () => {
             <div className="skills__box">
                 <div className="skills__group">
                     <div className="skills__data">
-                        <WorkspacePremiumIcon />
+                        <i className="skills__icon">
+                        <VerifiedIcon />
+                        </i>
 
                         <div>
                             <h3 className="skills__name">Node JS</h3>
@@ -19,7 +22,9 @@ const Backend = () => {
                     </div>
 
                     <div className="skills__data">
-                        <WorkspacePremiumIcon />
+                    <i className="skills__icon">
+                        <VerifiedIcon />
+                        </i>
 
                         <div>
                             <h3 className="skills__name">Express JS</h3>
@@ -29,7 +34,9 @@ const Backend = () => {
                     </div>
 
                     <div className="skills__data">
-                        <WorkspacePremiumIcon />
+                    <i className="skills__icon">
+                        <VerifiedIcon />
+                        </i>
 
                         <div>
                             <h3 className="skills__name">Mongo DB</h3>
@@ -40,7 +47,9 @@ const Backend = () => {
                 </div>
                 <div className="skills__group">
                     <div className="skills__data">
-                        <WorkspacePremiumIcon />
+                    <i className="skills__icon">
+                        <VerifiedIcon />
+                        </i>
 
                         <div>
                             <h3 className="skills__name">MySQL</h3>
@@ -50,7 +59,9 @@ const Backend = () => {
                     </div>
 
                     <div className="skills__data">
-                        <WorkspacePremiumIcon />
+                    <i className="skills__icon">
+                        <VerifiedIcon />
+                        </i>
 
                         <div>
                             <h3 className="skills__name">Java</h3>
@@ -60,7 +71,9 @@ const Backend = () => {
                     </div>
 
                     <div className="skills__data">
-                        <WorkspacePremiumIcon />
+                    <i className="skills__icon">
+                        <VerifiedIcon />
+                        </i>
 
                         <div>
                             <h3 className="skills__name">JavaScript</h3>
