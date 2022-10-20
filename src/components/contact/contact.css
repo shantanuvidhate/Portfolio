@@ -18,7 +18,7 @@
 .email__address {
     display: block;
     font-size: var(--normal-font-size);
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     color: var(--title-color);
     text-align: center;
 }
