@@ -15,7 +15,7 @@ const Footer = () => {
                         <a href="#about" className="footer__link">About</a>
                     </li>
                     <li>
-                        <a href="#projects" className="footer__link">Projects</a>
+                        <a href="#project" className="footer__link">Projects</a>
                     </li>
                     <li>
                         <a href="#contact" className="footer__link">Contact Me</a>
@@ -23,11 +23,11 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://www.linkedin.com" className="footer__social-link" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/shantanu-vidhate-3077711a0/" className="footer__social-link" target="_blank" rel="noreferrer">
                         <LinkedInIcon />
                     </a>
 
-                    <a href="https://github.com/" className="footer__social-link" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/shantanuvidhate" className="footer__social-link" target="_blank" rel="noreferrer">
                         <GitHubIcon />
                     </a>
 

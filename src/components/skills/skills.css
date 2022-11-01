@@ -6,9 +6,15 @@
 
 .skills__content {
     background-color: var();
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* border: 1px solid rgba(0, 0, 0, 0.4); */
     padding: 2rem 4rem;
     border-radius: 1.25rem;
+    box-shadow: 5px 6px 10px #9a9a9a;
+    transition: 0.3s;
+}
+
+.skills__content:hover {
+    transform: scale(1.1);
 }
 
 .skills__title {
@@ -27,7 +33,7 @@
 .skills__group {
     display: grid;
     align-items: flex-start;
-    row-gap: 1rem;
+    row-gap: 1.5rem;
 }
 .skills__data {
     display: flex;

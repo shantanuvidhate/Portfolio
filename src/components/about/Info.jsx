@@ -10,7 +10,7 @@ const Info = () => {
           <WorkspacePremiumIcon />
           </i>
             <h3 className="about__title">Experience</h3>
-                <span className="about__subtitle">6 Months</span>
+                <span className="about__subtitle">3 Months</span>
         </div>
         <div className="about__box">
           <i className="about__icon">

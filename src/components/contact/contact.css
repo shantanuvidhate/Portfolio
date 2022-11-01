@@ -13,7 +13,7 @@
     text-align: center;
 }
 .mail__icon img {
-    width: 12vw;
+    width: 7rem;
 }
 .email__address {
     display: block;
@@ -35,6 +35,9 @@
       width: 22px;
       height: 22px;
     }
+    .mail__icon img {
+      width: 6rem;
+  }
   }
   
   /* For medium devices */
@@ -46,22 +49,30 @@
     .section__subtitle {
       margin-bottom: var(--mb-2);
     }
+    .mail__icon img {
+      width: 6rem;
+  }
   }
   
   @media screen and (max-width: 576px) {
-
+    .mail__icon img {
+      width: 5rem;
+  }
   }
   
   /* For small devices */
   @media screen and (max-width: 350px) {
     .button {
-        padding: 1rem 1.5rem;
+        padding: 0.8rem 1.15rem;
       }
     
       .button__icon {
-        width: 18px;
-        height: 18px;
+        width: 15px;
+        height: 15px;
       }
+      .mail__icon img {
+        width: 3rem;
+    }
   
   }
   

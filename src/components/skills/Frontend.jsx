@@ -11,74 +11,81 @@ const Frontend = () => {
                 <div className="skills__group">
                     <div className="skills__data">
                     <i className="skills__icon">
-                        <VerifiedIcon />
+                        <VerifiedIcon fontSize='small' />
                         </i>
 
                         <div>
                             <h3 className="skills__name">HTML</h3>
-                            <span className="skills__level">Basic</span>
-
                         </div>
                     </div>
 
                     <div className="skills__data">
                     <i className="skills__icon">
-                        <VerifiedIcon />
+                        <VerifiedIcon fontSize='small' />
                         </i>
 
                         <div>
                             <h3 className="skills__name">CSS</h3>
-                            <span className="skills__level">Basic</span>
-
                         </div>
                     </div>
 
                     <div className="skills__data">
                     <i className="skills__icon">
-                        <VerifiedIcon />
+                        <VerifiedIcon fontSize='small' />
                         </i>
 
                         <div>
                             <h3 className="skills__name">JavaScript</h3>
-                            <span className="skills__level">Basic</span>
+                        </div>
+                    </div>
 
+                    <div className="skills__data">
+                    <i className="skills__icon">
+                        <VerifiedIcon fontSize='small' />
+                        </i>
+
+                        <div>
+                            <h3 className="skills__name">BootStrap</h3>
                         </div>
                     </div>
                 </div>
                 <div className="skills__group">
                     <div className="skills__data">
                     <i className="skills__icon">
-                        <VerifiedIcon />
+                        <VerifiedIcon fontSize='small' />
                         </i>
 
                         <div>
-                            <h3 className="skills__name">BootStrap</h3>
-                            <span className="skills__level">Basic</span>
-
+                            <h3 className="skills__name">React JS</h3>
                         </div>
                     </div>
 
                     <div className="skills__data">
                     <i className="skills__icon">
-                        <VerifiedIcon />
+                        <VerifiedIcon fontSize='small' />
                         </i>
 
                         <div>
-                            <h3 className="skills__name">React</h3>
-                            <span className="skills__level">Basic</span>
+                            <h3 className="skills__name">Tailwind CSS</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                    <i className="skills__icon">
+                        <VerifiedIcon fontSize='small' />
+                        </i>
 
+                        <div>
+                            <h3 className="skills__name">Material-UI</h3>
                         </div>
                     </div>
 
                     <div className="skills__data">
                     <i className="skills__icon">
-                        <VerifiedIcon />
+                        <VerifiedIcon fontSize='small' />
                         </i>
 
                         <div>
-                            <h3 className="skills__name">TailwindCSS</h3>
-                            <span className="skills__level">Basic</span>
-
+                            <h3 className="skills__name">.NET Framework</h3>
                         </div>
                     </div>
                 </div>
