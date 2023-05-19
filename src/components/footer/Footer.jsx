@@ -5,6 +5,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import RedditIcon from '@mui/icons-material/Reddit';
 
 const Footer = () => {
+    const Linkdin_Url = process.env.REACT_APP_LINKDIN_URL;
+    const Github_Url = process.env.REACT_APP_GITHUB_URL;
+    const Redit_Url = process.env.REACT_APP_REDIT_URL;
     return (
         <footer className="footer">
             <div className="footer__container container">
@@ -23,15 +26,15 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://www.linkedin.com/in/shantanu-vidhate-3077711a0/" className="footer__social-link" target="_blank" rel="noreferrer">
+                    <a href={Linkdin_Url} className="footer__social-link" target="_blank" rel="noreferrer">
                         <LinkedInIcon />
                     </a>
 
-                    <a href="https://github.com/shantanuvidhate" className="footer__social-link" target="_blank" rel="noreferrer">
+                    <a href={Github_Url} className="footer__social-link" target="_blank" rel="noreferrer">
                         <GitHubIcon />
                     </a>
 
-                    <a href="https://www.reddit.com/" className="footer__social-link" target="_blank" rel="noreferrer">
+                    <a href={Redit_Url} className="footer__social-link" target="_blank" rel="noreferrer">
                         <RedditIcon />
 
                     </a>

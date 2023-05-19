@@ -149,7 +149,7 @@ const Projects = () => {
                             <li className="project__modal-descp">
                                 <i className="project__modal-icon"><CheckCircleOutlineIcon fontSize='small' /></i>
                                 <p className="project__modal-info">
-                                    Administrator cosole for admin.
+                                    Administrator console for admin.
                                 </p>
                             </li>
                             <li className="project__modal-descp ">

@@ -4,6 +4,7 @@ import mailIcon from "../../assets/pencil icon.svg"
 
 
 const Contact = () => {
+  const email = process.env.REACT_APP_EMAIL;
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
@@ -18,10 +19,10 @@ const Contact = () => {
           </div>
 
           <span className="email__address">
-            shantanuvidhate00@gmail.com
+            {email}
           </span>
 
-          <a href="mailto:shantanuvidhate00@gmail.com" className="button button--flex hello__btn">
+          <a href= {`mailto:${email}`} className="button button--flex hello__btn">
             Say Hello
             <svg
               className="button__icon"
