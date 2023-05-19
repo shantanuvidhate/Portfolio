@@ -108,7 +108,7 @@ const Projects = () => {
                             </li>
                             <li className="project__modal-descp">
                               
-                                <a href="#home" 
+                                <a href="https://github.com/shantanuvidhate/Portfolio" 
                                 target="_blank" rel="noreferrer"
                                 className="source__codelink-button">Visit </a>
                                 
